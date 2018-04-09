@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/react-draggable/*
+.*/scripts/*
+.*
+
+[include]
+
+[libs]
+
+[lints]
+all=warn
+
+[options]
