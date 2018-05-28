@@ -58,5 +58,8 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "d3": "^5.4.0",
+    "hsluv": "0.0.3"
+  }
 }
