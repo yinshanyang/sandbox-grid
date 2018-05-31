@@ -1,0 +1,36 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base target="_parent">
+        <script>
+          if (window.parent !== window) {
+            window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+          }
+        </script>
+        <title>Storybook</title>
+        <script>
+setTimeout(() => {
+  document.body.classList.add('text-normal-100')
+  document.body.classList.add('bg-background-100')
+  document.body.classList.add('sans-serif')
+
+  document.getElementById('root').style.position = 'absolute'
+  document.getElementById('root').style.top = '0px'
+  document.getElementById('root').style.bottom = '0px'
+  document.getElementById('root').style.left = '0px'
+  document.getElementById('root').style.right = '0px'
+}, 0)
+</script>
+
+        
+      </head>
+      <body>
+        <div id="root"></div>
+        <div id="error-display"></div>
+        <script src="static/preview.8e4207ee4fc003db9abc.bundle.js"></script>
+      </body>
+    </html>
+  
